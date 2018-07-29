@@ -1,0 +1,118 @@
+<html>
+
+<head>
+    <!-- 
+
+   Happy New Years
+   Author: Professor Myron Wilson
+   Date:   8/1/2006
+
+   Filename:         happynewyears.htm
+   Supporting files: e.jpg, library.js, newyearseve.gif, styles.css
+-->
+
+    <title>North Pole Novelties</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+
+
+    <!-- Add library.js below -->
+    <script src="library.js">
+    </script>
+
+</head>
+
+<body>
+    <table id="npn" cellpadding="5" cellspacing="0">
+        <tr>
+            <!-- Company Hyperlinks -->
+            <td id="links" rowspan="4" valign="top">
+                <a href="#">The New Year's Event Agenda</a>
+                <a href="#"></a>
+                <a href="#">New Year's Eve Happy Hour</a>
+                <a href="#">New Year's Eve Concert</a>
+                <a href="#">New Year's Eve Party</a>
+                <a href="#">New Year's Day Brunch</a>
+            </td>
+
+            <!-- Days until New Year's Eve -->
+            <td id="daycell">
+
+                <!-- Add script tag and declare variables and assign values -->
+                Today is
+                <script language="javascript">
+
+                    /*  Add date output statement */
+                    document.write(dayNames[now.getDay()] + " " + TodayMonth + " " + TodayDay + ", " + TodayYear);
+
+                </script>.
+
+                <!-- Add decision statment for number of days -->
+                <br>
+                <script type="text/javascript">
+
+                    document.write(" Only " + daysLeft + " days left until New Year's Eve.");
+
+                </script>
+
+            </td>
+        </tr>
+
+        <tr>
+            <!-- Company Logo -->
+            <td id="logo">
+                <img src="newyearseve.gif" alt="New Year's Eve!" />
+            </td>
+        </tr>
+
+        <tr>
+            <!-- Articles about the company -->
+            <td>
+                <table cellspacing="4" cellpadding="4">
+                    <tr>
+                        <!-- Welcome message -->
+                        <td id="firstcol" valign="top">
+                            <p>
+                                NEW YEAR'S EVE ENTERTAINMENT Consider us your complete New Year's Eve entertainment needs. We offer a excellent two days
+                                of events of elegance and style.</p>
+
+                            <!-- Latest news -->
+                            <h3>NEW YEAR'S EVE HAPPY HOUR</h3>
+                            <p>It starts at 5:00p.m. Mengle with everyone while consuming the finest spirits and eating the
+                                best horderves. </p>
+
+                            <h3>NEW YEAR'S EVE CONCERT</h3>
+                            <p>When you hear the band play and the artists sing, you are hearing our concert At 7:00p.m., listen
+                                to some of the best groups Atlanta has to offer. </p>
+
+                            <h3>NEW YEAR'S EVE PARTY</h3>
+                            <p>This is the event of the year. Jam to the sounds of everyone's favorite radio disc jockey and
+                                bring in the new year with a bang starting at 10:00 p.m. </p>
+
+                            <h3>NEW YEAR'S DAY BRUNCH</h3>
+                            <p>There is no other way to close out the vent with a delicious brunch with everyone's breakfast
+                                and lunch favorites at 11:00 a.m. </p>
+                        </td>
+
+                        <!-- Information about the company -->
+                        <td id="secondcol" valign="top">
+                            <h3>Elegance Entertainment</h3>
+                            <p>
+                                <img src="e.jpg" alt="" style="float: right; margin: 0px 0px 10px 10px" /> Elegance Entertainment is a company that specialize in major events. Established in 2003,
+                                Elegance has been providing events for the professional market in the Atlanta area.</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <!-- Contact Information -->
+            <td id="contact">
+                <b>Elegance Entertainment</b> | 324 King Avenue | Atlanta, GA 30332 | (404) 555-2015
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+body {margin: 0px}
+p b {color:green}
+h3 {font-family: sans-serif; color:red; margin-bottom:-20px}
+#npn {background-color:white; width:100%}
+#contact {font-family: sans-serif; color:red;
+          font-size:8pt; text-align:center; border-top: 2px solid rgb(128,0,0)}
+#daycell {text-align:center; background-color:gold;
+          color:red; font-size:10pt; font-family: sans-serif;
+          border-bottom: 2px solid rgb(128,0,0)}
+#links {background-color: rgb(128,0,0); width: 100px}
+#links a {color: gold; text-decoration:none; font-size:8pt; font-family: sans-serif; 
+          display: block; padding: 1px; border: 3px solid rgb(128,0,0); margin: 0px; width: 100%}
+#links a.newgroup {margin-top: 10px}
+#links a:hover {border: 3px outset white; color: white}
+#logo {text-align: center; border-bottom: 1px solid rgb(128,0,0)}
+#firstcol {width: 50%; border-right: 1px solid rgb(128,0,0)}
+#secondcol {width: 50%}
+.firstp:first-line {font-variant: small-caps}
