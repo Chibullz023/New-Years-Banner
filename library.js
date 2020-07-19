@@ -10,7 +10,7 @@
 
 function NYEDays(CheckDay) {
     var XYear = CheckDay.getFullYear();
-    var XDay = new Date("December, 31, 2018");
+    var XDay = new Date("December, 31, 2020");
     XDay.setFullYear(XYear);
     var DayCount = (XDay - CheckDay) / (1000 * 60 * 60 * 24);
     DayCount = Math.round(DayCount);
@@ -46,7 +46,7 @@ else { TodayMonth = TodayMon; }
 
 today = new Date();
 
-BigDay = new Date("December 31, 2018");
+BigDay = new Date("December 31, 2020");
 msPerDay = 24 * 60 * 60 * 1000;
 timeLeft = (BigDay.getTime() - today.getTime());
 e_daysLeft = timeLeft / msPerDay;
